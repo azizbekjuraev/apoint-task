@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://apialfa.apoint.uz/v1';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'http://apialfa.apoint.uz/v1';
 axios.defaults.timeout = 10000;
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 
